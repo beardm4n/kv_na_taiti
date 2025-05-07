@@ -1,75 +1,41 @@
-# Nuxt Minimal Starter
+# KV na Taiti — Investment Solutions
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+A landing page for promoting investment products and services.  
+We offer asset analysis, portfolio building based on your goals, and trading education.
 
-## Setup
+---
 
-Make sure to install dependencies:
+## 🔗 Live Demo
 
-```bash
-# npm
-npm install
+👉 [View the site](https://beardm4n.github.io/kv_na_taiti/)  
+(Hosted via GitHub Pages)
 
-# pnpm
-pnpm install
+---
 
-# yarn
-yarn install
+## 🧰 Tech Stack
 
-# bun
-bun install
-```
+- [Nuxt 3](https://nuxt.com)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Vite](https://vitejs.dev/)
+- [GitHub Actions](https://docs.github.com/en/actions) – for automated deployment
+- [GitHub Pages](https://pages.github.com/) – for hosting
 
-## Development Server
+---
 
-Start the development server on `http://localhost:3000`:
+## 🚫 License
 
-```bash
-# npm
-npm run dev
+📛 **This is a proprietary project.**
 
-# pnpm
-pnpm dev
+The source code is published solely for viewing purposes via GitHub Pages.  
+Any copying, modification, use, or redistribution of the code without written permission is strictly prohibited.
 
-# yarn
-yarn dev
+See the [LICENSE](./LICENSE) file for more details.
 
-# bun
-bun run dev
-```
+---
 
-## Production
+## 📬 Contact
 
-Build the application for production:
+For licensing inquiries or collaboration, feel free to reach out:
 
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+- 💬 [Telegram](https://t.me/beardm4n)
+- 📧 [Email](mailto:dmitriykorovko@gmail.com)
