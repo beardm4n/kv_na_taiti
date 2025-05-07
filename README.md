@@ -16,7 +16,6 @@ We offer asset analysis, portfolio building based on your goals, and trading edu
 
 - [Nuxt 3](https://nuxt.com)
 - [TypeScript](https://www.typescriptlang.org/)
-- [Vite](https://vitejs.dev/)
 - [GitHub Actions](https://docs.github.com/en/actions) – for automated deployment
 - [GitHub Pages](https://pages.github.com/) – for hosting
 
