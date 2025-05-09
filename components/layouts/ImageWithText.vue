@@ -1,7 +1,8 @@
 <template>
   <div class="image-with-text">
     <div class="image-container">
-      <img :src="imageSrc" alt="Image" class="image" />
+      <img :src="logo" alt="logo" class="logo" />
+      <img :src="imageSrc" alt="image" class="image" />
 
       <div class="overlay">
         <span class="text_title">{{ title }}</span>
@@ -14,6 +15,10 @@
 <script setup>
 defineProps({
   imageSrc: {
+    type: String,
+    required: true
+  },
+  logo: {
     type: String,
     required: true
   },
@@ -44,6 +49,13 @@ defineProps({
   width: 100%;
   height: auto;
   display: block;
+  object-fit: cover;
+}
+
+.logo {
+  position: absolute;
+  width: 200px;
+  height: 200px;
   object-fit: cover; /* Заполняет контейнер без искажения пропорций */
 }
 
@@ -78,6 +90,12 @@ defineProps({
   }
   .text_subtitle {
     font-size: 1rem;
+  }
+
+  .logo {
+    position: absolute;
+    width: 75px;
+    height: 75px;
   }
 }
 
