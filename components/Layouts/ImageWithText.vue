@@ -1,7 +1,8 @@
 <template>
   <div class="image-with-text">
     <div class="image-container">
-      <img :src="`${baseURL}${imageSrc}`" alt="Image" class="image" />
+      <img :src="imageSrc" alt="Image" class="image" />
+
       <div class="overlay">
         <span class="text_title">{{ title }}</span>
         <span class="text_subtitle">{{ subTitle }}</span>
@@ -11,7 +12,6 @@
 </template>
 
 <script setup>
-
 defineProps({
   imageSrc: {
     type: String,
@@ -26,9 +26,6 @@ defineProps({
     default: ''
   }
 });
-
-const config = useRuntimeConfig();
-const baseURL = config.app.baseURL;
 </script>
 
 <style scoped>
