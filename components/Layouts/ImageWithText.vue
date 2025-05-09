@@ -1,7 +1,7 @@
 <template>
   <div class="image-with-text">
     <div class="image-container">
-      <img :src="imageSrc" alt="Image" class="image" />
+      <img :src="`${baseURL}${imageSrc}`" alt="Image" class="image" />
       <div class="overlay">
         <span class="text_title">{{ title }}</span>
         <span class="text_subtitle">{{ subTitle }}</span>
@@ -26,6 +26,9 @@ defineProps({
     default: ''
   }
 });
+
+const config = useRuntimeConfig();
+const baseURL = config.app.baseURL;
 </script>
 
 <style scoped>
