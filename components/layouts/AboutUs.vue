@@ -36,6 +36,7 @@
   justify-content: center;
   align-items: center;
   padding: 24px;
+  line-height: 1.5;
 }
 
 .center {
