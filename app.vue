@@ -15,8 +15,8 @@ import ImageWithText from '~/components/layouts/ImageWithText.vue';
 import AboutUs from '~/components/layouts/AboutUs.vue';
 import { useAssetUrl } from '~/composables/useAssetUrl';
 
-const img = useAssetUrl('images/main_img.png');
-const logo = useAssetUrl('images/logo.png');
+const img = useAssetUrl('images/main_img.webp');
+const logo = useAssetUrl('images/logo.webp');
 </script>
 
 <style>

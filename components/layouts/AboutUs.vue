@@ -42,4 +42,8 @@
 .center {
   text-align: center;
 }
+
+h2, h3 {
+  margin: 30px 0;
+}
 </style>
